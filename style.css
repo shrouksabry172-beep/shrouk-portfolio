@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .navbar{
+   background-color:rgba(7, 1, 26, 0.175);
+   z-index: 1;
+} 
+.navbar-brand .h2{
+    color: white;
+}
+.navbar .btn{
+    background-color: white;
+ }
+ .offcanvas li:hover{
+   color: white;
+ }
+.section1{
+    background-image: url(./website-recourses/closeup-developer-hands-typing-code-keyboard-while-looking-computer-screens-with-programming-interface-software-programmer-sitting-desk-with-clipboard-writing-algorithm\ \(1\).jpg);
+    background-size:cover;
+    background-position: center;
+     position: relative;
+     background-repeat: no-repeat;
+    min-height: 60vh;
+}
+.leyer1{
+    width: 100%;
+    background-color:rgba(7, 1, 26, 0.549);
+   min-height: 60vh;
+}
+.Home .h1{
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+     font-family: "Lobster", sans-serif;
+     font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+.Home .h3{
+    color: white;
+    padding-left: 20px;
+      font-family: "Lexend", sans-serif;
+      font-size: 25px;
+  font-weight: 700;
+  width: 60%;
+}
+.Home button{
+    margin-top: 10px;
+    padding: 7px 14px 7px 14px;
+    margin-left: 20px;
+   border:solid rgba(7, 1, 26, 0.549);
+     background-color:transparent;
+     color: white;
+}
+.Home button:hover{
+     background-color:rgba(7, 1, 26);
+}
+.section2{
+  background: linear-gradient(to right, rgba(7, 1, 26, 0.836) 45%,rgba(7, 1, 26, 0.789) 70%);
+    color: white;
+}
+.section2 .h2{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-family: "Lexend", sans-serif;
+    font-size: 50px;
+  font-weight: 700;
+}
+.section2 .about{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section2 .h3{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.about2{
+        width: 100%;
+}
+.section2 .h4{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+ .help h2 {
+  font-family: "Lexend", sans-serif;
+    font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  }
+.card{
+   background-color:transparent;
+   border-style: none;
+}
+.card:hover{
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+  .card-text {
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+.card1{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.card1 img{
+    width: 90%;
+}
+.work h2 {
+  font-family: "Lexend", sans-serif;
+    font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  }
+  .con .h3{
+    padding-left: 30px;
+     font-family: "Lexend", sans-serif;
+    font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  }
+  .contact .h5{
+   padding-left: 20px;
+  }
+  .me{
+    padding-left: 20px;
+    padding-top: 20px;
+   padding-bottom: 40px;
+  }
+  .me i{
+    padding-right: 10px;
+  }
+  .leyer2{
+   background: linear-gradient(to right, rgba(7, 1, 26, 0.836) 45%,rgba(7, 1, 26, 0.789) 70%);
+  }
+  .copy{
+    color: white;
+    border-style:solid;
+   border-bottom:white;
+   
+  }
+  .icon{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+  .icon i:hover{
+    color: black;
+  }
+  .icon a{
+   color: white;
+  }
+  .icon i{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+@media screen and (min-width:992px){
+    .navbar-nav .nav-item {
+    margin-left: 25px;
+}
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.navbar-nav .nav-link::after {
+  content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: translateY(-3px); 
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+.section1{
+    min-height:90vh;
+     background-attachment: fixed;
+}
+.leyer1{
+   min-height: 90vh;
+}
+.Home .h1{
+ padding-top: 90px;
+     font-size: 90px;
+  font-weight: 400;
+  font-style: normal;
+}
+.Home .h3{
+     padding-top: 30px;
+      font-size: 40px;
+}
+.Home button{
+    padding: 15px 50px 15px 50px;
+    margin-left: 30px;
+}
+.section2 .h2{
+    font-size: 60px;
+}
+.section2 .about{
+    flex-wrap: nowrap;
+}
+.section2 .h3{
+    width:50%;
+    align-self: center;
+    margin-right: 30px;
+}
+.about2{
+        width: 50%;
+}
+.row{
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 33%;
+}
+.card1 img{
+    width: 100%;
+}
+.work h2 {
+    font-size: 60px;
+  }
+    .con .h3{
+    font-size: 60px;
+  }
+  .contact{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .contact .h5{
+    width: 50%;
+    font-size: 20px;
+  }
+  .me{
+    width: 50%;
+    font-size: 20px;
+  }
+   .copy{
+    font-size: 20px;
+  }
+  .icon{
+    font-size: 40px;
+  }
+}
