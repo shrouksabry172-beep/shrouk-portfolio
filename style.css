@@ -142,6 +142,8 @@
     color: white;
     border-style:solid;
    border-bottom:white;
+   border-left: hidden;
+   border-right: hidden;
    
   }
   .icon{
