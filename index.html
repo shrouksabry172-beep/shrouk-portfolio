@@ -15,9 +15,8 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="section1">
-        <div class="leyer1">
-    <div class="navbar navbar-expand-lg relative-top">
+   
+    <div class="navbar navbar-expand-lg fixed-top">
   <div class="container-fluid">
 
     <a class="navbar-brand" href="./index.html">
@@ -67,33 +66,47 @@
 
   <div class="offcanvas-body">
     <ul class="list-unstyled">
-      <li><a href="./index.html" class="nav-link">Home</a></li>
+      <li><a href="./index.html" class="nav-link sidebar-link">Home</a></li>
       <hr>
-      <li><a href="#about-me" class="nav-link">About Me</a></li>
+      <li><a href="#about-me" class="nav-link sidebar-link">About Me</a></li>
       <hr>
-      <li><a href="#ser" class="nav-link">Services</a></li>
+      <li><a href="#ser" class="nav-link sidebar-link">Services</a></li>
       <hr>
-      <li><a href="#work" class="nav-link">Work</a></li>
+      <li><a href="#work" class="nav-link sidebar-link">Work</a></li>
       <hr>
-      <li><a href="#contact" class="nav-link">Contact Me</a></li>
+      <li><a href="#contact" class="nav-link sidebar-link">Contact Me</a></li>
     </ul>
   </div>
 </div>
-   <div class="Home" id="Home">
-    <div class="h2 text-center">Welcome to my online home!</div>
-    <div class=" sec text-center">I’m Shrouk Sabry – Junior Web Designer, I create clean, responsive, and user-friendly web interfaces.</div>
-   <a href="#about-me"><button>About Me ↓</button></a> <!--link-->
-   </div>
+ <div class="section1">
+        <div class="leyer1">
+   <section class="hero d-flex align-items-center text-center">
+  <div class="container">
+    <p class="welcome slide-in-left delay-1">Welcome to my online home!</p>
+    
+    <h1 class="name slide-in-right delay-2">I’m <span>Shrouk Sabry</span></h1>
+    
+    <h2 class="job  slide-in-left delay-3">Front-End Developer</h2>
+    
+    <p class="desc slide-in-right delay-4">
+      I build clean, responsive, and user-friendly web interfaces.
+    </p>
+
+  <a href="Shrouk-Sabry-Frontend-CV.pdf" class="cv-btn  slide-in-bottom delay-5" download>
+  Download CV
+</a>
+  </div>
+</section>
    </div>
 </div>
 <div class="section2 container-fluid" id="about-me">
   <div class="about1 container">
-   <div class="h2">About Me</div>
-   <div class="h2 name text-center">Hi! I’m Shrouk Sabry</div>
-   <div class="about">
+   <div class="title text-center h2">About Me</div>
+   <div class="h3 name text-center">Hi! I’m Shrouk Sabry</div>
+   <div class="about-text text-center">
     <div class="h3">Junior Front-End Developer passionate about building clean, responsive, and user-friendly web interfaces. I specialize in HTML, CSS, and JavaScript, creating layouts that are visually appealing, functional, and accessible. I continuously learn modern web technologies to improve my skills and follow best coding practices.</div>
     <div class="about2">
-        <div  class="mb-3">
+        <div  class="about-card fade-in">
             <div class="h4">Education</div>
             <div>
                 <ul>
@@ -102,7 +115,7 @@
                 </ul>
             </div>
         </div>
-        <div  class="mb-3">
+        <div  class="about-card fade-in">
             <div class="h4">Skills</div>
             <div>
                 <ul>
@@ -112,7 +125,7 @@
                 </ul>
             </div>
         </div>
-        <div  class="mb-3">
+        <div  class="about-card fade-in">
             <div class="h4">Tools</div>
             <div>
                 <ul>
@@ -126,73 +139,99 @@
     </div>
    </div>
    </div>
-<section id="ser" class="help container text-center my-5">
+<section id="ser" class="help container text-center my-5 reveal">
   <h2>I Can Help You With</h2>
-  <div class="row d-flex justify-content-center mt-4">
-     <div class="card mb-3" style="width: 18rem; height: 22rem;">
-  <img src="./website-recourses/XXL_height.webp" class="card-img-top" alt="Website" style="height: 180px; object-fit: cover;">
-  <div class="card-body">
-    <p class="card-text text-center">Building clean and responsive websites</p>
-  </div>
-</div>
+  <div class="row d-flex justify-content-center mt-4 g-4">
+      <div class="col-md-6 col-lg-3">
+      <div class="card service-card  fade-in">
+        <img src="./website-recourses/XXL_height.webp" alt="Website" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text">Building clean and responsive websites</p>
+        </div>
+      </div>
+    </div>
 
-<div class="card  mb-3" style="width: 18rem; height: 22rem;">
-  <img src="./website-recourses/sql2-1024x512.jpg" class="card-img-top" alt="JavaScript" style="height: 180px; object-fit: cover;">
-  <div class="card-body">
-    <p class="card-text text-center">Creating interactive web pages with JavaScript</p>
-  </div>
-</div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card service-card  fade-in">
+        <img src="./website-recourses/sql2-1024x512.jpg" alt="JavaScript" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text">Creating interactive web pages with JavaScript</p>
+        </div>
+      </div>
+    </div>
 
-<div class="card  mb-3" style="width: 18rem; height: 22rem;">
-  <img src="./website-recourses/pexels-format-380633-1029757.jpg" class="card-img-top" alt="Tools" style="height: 180px; object-fit: cover;">
-  <div class="card-body">
-    <p class="card-text text-center">Fixing and improving website layouts</p>
-  </div>
-</div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card service-card  fade-in">
+        <img src="./website-recourses/pexels-format-380633-1029757.jpg" alt="Tools" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text">Fixing and improving website layouts</p>
+        </div>
+      </div>
+    </div>
 
-<div class="card mb-3" style="width: 18rem; height: 22rem;">
-  <img src="./website-recourses/pexels-cottonbro-5082579.jpg" class="card-img-top" alt="Mobile Friendly" style="height: 180px; object-fit: cover;">
-  <div class="card-body">
-    <p class="card-text text-center">Making websites mobile-friendly</p>
-  </div>
-</div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card service-card  fade-in">
+        <img src="./website-recourses/pexels-cottonbro-5082579.jpg" alt="Mobile Friendly" class="card-img-top">
+        <div class="card-body">
+          <p class="card-text">Making websites mobile-friendly</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
-<section id="work" class="work container text-center my-5">
+<section id="work" class="work container text-center my-5  fade-in reveal">
   <h2>Recent Work</h2>
-  <div class="row d-flex justify-content-center mt-4">
-     <div class="card1 mb-3">
-  <img src="./website-recourses/Document and 3 more pages - Personal - Microsoft​ Edge 3_8_2026 1_14_00 AM.png" class="card-img-top" alt="Website">
+  <div class="row g-4 d-flex justify-content-center mt-4">
+    <div class="col-md-6 col-lg-4">
+      <div class="card1 fade-in">
+        <img src="./website-recourses/Document and 3 more pages - Personal - Microsoft​ Edge 3_8_2026 1_25_55 AM.png" alt="Project 2">
+        <div class="overlay">
+          <div class="buttons">
+            <a href="https://shrouksabry172-beep.github.io/Final-Project" class="btn1" target="_blank">Live Demo</a>
+            <a href="https://github.com/shrouksabry172-beep/Final-Project" class="btn2" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-md-6 col-lg-4">
+      <div class="card1 fade-in">
+        <img src="./website-recourses/Document and 3 more pages - Personal - Microsoft​ Edge 3_8_2026 1_29_12 AM.png" alt="Project 3">
+        <div class="overlay">
+          <div class="buttons">
+            <a href="https://shrouksabry172-beep.github.io/Restaurant/" class="btn1" target="_blank">Live Demo</a>
+            <a href="https://github.com/shrouksabry172-beep/Restaurant" class="btn2" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</div>
-
-<div class="card1  mb-3">
-  <img src="./website-recourses/Document and 3 more pages - Personal - Microsoft​ Edge 3_8_2026 1_25_55 AM.png" class="card-img-top" alt="JavaScript">
-</div>
-<div class="card1  mb-3">
-  <img src="./website-recourses/Document and 3 more pages - Personal - Microsoft​ Edge 3_8_2026 1_29_12 AM.png" class="card-img-top" alt="JavaScript">
-</div>
- </div>
+  </div>
 </section>
-<div class="con" id="contact">
+<div class="con reveal pb-5" id="contact">
+   <div class="contact container text-center">
      <div class="h3">Let's work together</div>
-    <div class="contact">
         <div class="h5">I’m open to work on web design projects or just have a chat about new ideas!
 Feel free to reach out via email or LinkedIn</div>
-    <div class="me">
+    <div class="me  d-flex flex-column flex-lg-row justify-content-center align-items-center mt-4 gap-4">
         <div class="phone"><i class="fa-solid fa-phone"></i>01023424120</div>
         <div class="email"><i class="fa-solid fa-envelope"></i>shrouksabry172@gmail.com</div>
         <div class="location"><i class="fa-solid fa-location-dot"></i>Cairo, Egypt</div>
     </div>
      </div>
 </div>
-</div>
+
 <footer>
-    <div class="leyer2">
-    <div class="pt-5 text-center copy">Copyright © 2026 Web Designer | Powered by Web Designer</div>
-    <div class="text-center mt-4 icon"><a href="https://github.com/shrouksabry172-beep"><i class="fa-brands fa-github"></i></a><a href="https://www.linkedin.com/in/shrouksabry"><i class="fa-brands fa-linkedin"></i></a></div>
+    <div class="leyer2 reveal">
+    <div class="copy">Copyright © 2026 Web Designer | Powered by Web Designer</div>
+    <div class=" icon">
+      <a href="https://github.com/shrouksabry172-beep"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shrouksabry"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
     </div>
 </footer>
      <script src="./website-recourses/bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+     <script src="./index.js"></script>
 </body>
 </html>
