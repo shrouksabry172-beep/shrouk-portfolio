@@ -400,6 +400,57 @@ color:#e2e8f0;
     color: #38bdf8;
     transform: scale(1.2);
 }
+.feedback{
+    padding:60px 0;
+}
+
+.feedback h2{
+    font-family: "Lexend", sans-serif;
+    font-size:40px;
+    font-weight:700;
+    color:#38bdf8;
+}
+
+/* Card */
+.feedback-card{
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    padding:30px;
+    border-radius:12px;
+    max-width:600px;
+    margin:auto;
+}
+
+/* Text */
+.feedback-text{
+    color:#e2e8f0;
+    font-size:17px;
+    margin-bottom:20px;
+}
+
+/* Stars */
+.stars{
+    color:#facc15;
+    margin-bottom:10px;
+    font-size:20px;
+}
+
+/* Name */
+.client-name{
+    color:#38bdf8;
+}
+
+/* LinkedIn */
+.linkedin{
+    text-decoration:none;
+    color:white;
+    display:inline-block;
+    margin-top:8px;
+    transition:0.3s;
+}
+
+.linkedin:hover{
+    color:#38bdf8;
+}
 @media screen and (min-width:992px){
     .navbar-nav .nav-item {
     margin-left: 25px;
